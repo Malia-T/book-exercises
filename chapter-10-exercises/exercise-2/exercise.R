@@ -24,7 +24,7 @@ salaries <- data.frame(employees, salaries_2017, adjustments, stringsAsFactors =
 # Add a column to the `salaries` data frame that represents each person's
 # salary in 2018 (e.g., with the salary adjustment added in).
 salaries$salaries_2018 <- salaries$salaries_2017 + salaries$adjustments
-#View(salaries)
+View(salaries)
 
 # Add a column to the `salaries` data frame that has a value of `TRUE` if the 
 # person got a raise (their salary went up)
