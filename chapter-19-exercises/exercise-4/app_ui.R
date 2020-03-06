@@ -28,7 +28,7 @@ library("shiny")
   # shows. Your paragraph should include both `strong()` and emphasized `em()`
   # text.
   
-
+ui <- fluidPage()
 # Next, we'll define a few UI elements to render in our second panel
 
 # Define a variable `sidebar_content` as a `sidebarPanel()` UI element
